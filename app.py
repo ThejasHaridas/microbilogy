@@ -33,7 +33,7 @@ if st.button("Get Answer"):
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are a microbiology expert helping students with homework. Explain clearly and simply."
+                        "content": "You are a microbiology expert helping students with homework and exams . Explain clearly and simply with ample amount of descrption."
                     },
                     {
                         "role": "user",
@@ -48,3 +48,4 @@ if st.button("Get Answer"):
 
             st.success("Answer:")
             st.write(answer)
+
